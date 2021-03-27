@@ -1,0 +1,162 @@
+* {
+    margin:0;
+    padding: 0;
+}
+.wrapper{
+    background-image:url(madshot.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative ;
+    overflow-x: hidden;
+    
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4)
+}
+ .navbar ul {
+     float: right;
+     margin-right: 0;
+ }
+ .navbar ul li {
+list-style: none;
+margin: 0 10px;
+display: inline-block;
+line-height: 80px;
+ }
+ 
+ .logo{
+     width: 55px;
+     height: 90px;
+     
+     
+     
+
+ }
+ .navbar ul li a {
+     text-decoration:none;
+     color: whitesmoke;
+     padding: 7px 10px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     transition: .4s;
+ }
+ 
+ .navbar ul li a:hover {
+     background: red;
+     border-radius: 20px;
+ }
+
+.contact-form{
+    background:red;
+    color:whitesmoke ;
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px whitesmoke;
+    
+
+
+}
+.hr{
+background: whitesmoke;
+}
+
+.container{
+    background:red;
+    color:whitesmoke ;
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px whitesmoke;
+    
+
+}
+.radio-inline{
+    margin: 0px 40px 20px 0px;
+cursor: pointer;
+
+}
+.label{
+color: red;
+}
+#text{
+    height: 40px ;
+    border-radius: 5px;
+    padding-left: 10px;
+font-size: 14px;
+border: none;
+width: 100%;
+color: black;
+
+
+}
+#messege {
+    outline: none;
+    border: none;
+    padding: 10px 0px 0px 15px ;
+    font-size: 15px;
+    color: black;
+    border: 15px;
+    width: 100%;
+}
+.feedbacks{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:60px;
+}
+.feedback{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:18px;
+
+}
+.madshot{
+    font-size: larger;
+    text-align: center;
+    color: black;
+}
+.table1{
+    text-align: center;
+    font-size: larger;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px 3px whitesmoke;
+    border-radius: 20px;
+
+}
+.span{
+    font-size: large;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 0px 10px 3px whitesmoke;
+    border-radius: 20px;
+
+}
+.photo{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    box-shadow: 0px 0px 10px 3px whitesmoke;
+    border-radius: 20px;
+
+}
+.payment{
+    font-size: large;
+    font-style: oblique;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    color: whitesmoke;
+    box-shadow: 0px 0px 10px 3px whitesmoke;
+    border-radius: 20px;
+
+}
